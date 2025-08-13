@@ -46,7 +46,7 @@ export function ProductCapabilities() {
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Smarter & Measurable Results</h3>
                   <p className="text-gray-300 leading-relaxed text-xl">
-                    Experience 95% accuracy, 90% time saved, and up to 60% cost reduction — all powered by Payraydoo. Our intelligent automation turns everyday workflows into effortless wins. It's not just faster; it's smarter.
+                    Experience 95% accuracy, 90% time saved, and up to 60% cost reduction — all powered by Payraydoo. Our intelligent automation turns everyday workflows into effortless wins. It&apos;s not just faster; it&apos;s smarter.
                   </p>
                 </div>
               </div>
