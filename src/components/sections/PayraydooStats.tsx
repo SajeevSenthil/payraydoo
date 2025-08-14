@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function PayraydooStats() {
   return (
     <section className="bg-white pt-8 pb-16">
@@ -36,9 +38,11 @@ export function PayraydooStats() {
         
         {/* CTA Button */}
         <div className="text-center mt-14">
-          <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium text-lg py-3 px-10 rounded-full transition-all shadow-lg hover:shadow-xl">
-            Discover More
-          </button>
+          <Link href="/ap-invoice-processing">
+            <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium text-lg py-3 px-10 rounded-full transition-all shadow-lg hover:shadow-xl">
+              Discover More
+            </button>
+          </Link>
         </div>
       </div>
     </section>

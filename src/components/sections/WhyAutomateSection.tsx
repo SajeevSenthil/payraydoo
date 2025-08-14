@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function WhyAutomateSection() {
   return (
     <section className="py-20 bg-gray-50">
@@ -31,9 +33,11 @@ export function WhyAutomateSection() {
           </div>
         </div>
 
-        <button className="bg-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-700 transition-colors">
-          Discover More
-        </button>
+        <Link href="/ap-invoice-processing">
+          <button className="bg-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-700 transition-colors">
+            Discover More
+          </button>
+        </Link>
       </div>
     </section>
   )

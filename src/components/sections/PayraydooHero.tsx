@@ -26,83 +26,13 @@ export function PayraydooHero() {
 
           {/* Right Content - Dashboard Preview */}
           <div className="relative flex justify-end lg:justify-end mt-12 lg:mt-0 lg:pl-8">
-            {/* Tablet Dashboard UI - positioned behind and more to the right */}
-            <div className="relative bg-gradient-to-b from-white to-gray-50 rounded-3xl shadow-2xl w-full max-w-5xl lg:max-w-7xl overflow-hidden z-10 transform rotate-1 lg:translate-x-60 scale-y-75 border border-gray-200 hover:shadow-3xl transition-shadow duration-300">
-              <div className="p-4 md:p-6 lg:p-8 xl:p-12">
-                {/* Dashboard header with enhanced styling */}
-                <div className="flex justify-between items-center mb-4 pb-3 border-b border-gray-100">
-                  <div className="flex items-center space-x-4">
-                    <div className="flex space-x-2">
-                      <div className="w-3 h-3 rounded-full bg-red-500 shadow-sm"></div>
-                      <div className="w-3 h-3 rounded-full bg-yellow-500 shadow-sm"></div>
-                      <div className="w-3 h-3 rounded-full bg-green-500 shadow-sm"></div>
-                    </div>
-                    <div className="text-xs md:text-sm font-semibold text-gray-700">Payraydoo Dashboard</div>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="text-xs text-gray-500">Live</div>
-                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  </div>
-                </div>
-                
-                {/* Enhanced Dashboard grid content */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
-                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-2 md:p-3 lg:p-4 text-center border border-blue-200 hover:shadow-md transition-shadow duration-200">
-                    <div className="text-lg md:text-xl lg:text-2xl font-bold text-blue-700">21</div>
-                    <div className="text-xs md:text-sm text-blue-600 font-medium">Today&apos;s Invoices</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-2 md:p-3 lg:p-4 text-center border border-green-200 hover:shadow-md transition-shadow duration-200">
-                    <div className="text-lg md:text-xl lg:text-2xl font-bold text-green-700">56</div>
-                    <div className="text-xs md:text-sm text-green-600 font-medium">Invoices Processed</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-2 md:p-3 lg:p-4 text-center border border-purple-200 hover:shadow-md transition-shadow duration-200">
-                    <div className="text-lg md:text-xl lg:text-2xl font-bold text-purple-700">56</div>
-                    <div className="text-xs md:text-sm text-purple-600 font-medium">Total Exceptions</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-2 md:p-3 lg:p-4 text-center border border-orange-200 hover:shadow-md transition-shadow duration-200">
-                    <div className="text-lg md:text-xl lg:text-2xl font-bold text-orange-700">68</div>
-                    <div className="text-xs md:text-sm text-orange-600 font-medium">Invoice by Status</div>
-                  </div>
-                </div>
-
-                {/* Enhanced Chart section */}
-                <div className="mt-4 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-3 md:p-4 lg:p-5 border border-gray-200 shadow-sm">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="text-xs md:text-sm text-gray-600 font-semibold">Total Number of invoices each month</div>
-                    <div className="flex items-center space-x-1">
-                      <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                      <span className="text-xs text-gray-500">Live Data</span>
-                    </div>
-                  </div>
-                  <div className="h-20 md:h-24 lg:h-28 flex items-end space-x-2 relative bg-white rounded-lg p-2">
-                    {[35, 45, 30, 60, 40, 70, 50, 80, 60, 75, 55, 65].map((height, i) => (
-                      <div 
-                        key={i} 
-                        className="bg-gradient-to-t from-indigo-600 to-indigo-400 rounded-t flex-1 shadow-sm hover:from-indigo-700 hover:to-indigo-500 transition-colors duration-200" 
-                        style={{ height: `${height}%` }}
-                      ></div>
-                    ))}
-                  </div>
-                </div>
-                
-                {/* Enhanced Task list */}
-                <div className="mt-4 bg-gradient-to-r from-slate-50 to-gray-50 rounded-xl p-3 border border-gray-200">
-                  <div className="flex justify-between items-center px-2 pb-2 border-b border-gray-200">
-                    <div className="text-xs md:text-sm text-gray-700 font-bold">Task ID</div>
-                    <div className="text-xs md:text-sm text-gray-700 font-bold">Task Name</div>
-                  </div>
-                  <div className="space-y-1 mt-2">
-                    <div className="flex justify-between items-center px-2 py-2 hover:bg-white rounded-lg transition-colors duration-150">
-                      <div className="text-xs md:text-sm text-gray-600 font-medium">1773668</div>
-                      <div className="text-xs md:text-sm text-gray-600">Validate Invoice</div>
-                    </div>
-                    <div className="flex justify-between items-center px-2 py-2 hover:bg-white rounded-lg transition-colors duration-150">
-                      <div className="text-xs md:text-sm text-gray-600 font-medium">1773667</div>
-                      <div className="text-xs md:text-sm text-gray-600">Review Draft Invoice</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            {/* Dashboard Image */}
+            <div className="relative z-10 transform rotate-1 lg:translate-x-60 scale-y-75">
+              <img 
+                src="/assets/data.jpg" 
+                alt="Payraydoo Dashboard - Total Number of Invoices Each Month" 
+                className="w-full max-w-5xl lg:max-w-7xl rounded-3xl shadow-2xl border border-gray-200 hover:shadow-3xl transition-shadow duration-300 object-cover"
+              />
             </div>
 
             {/* Mobile Payment Widget - positioned in front and more to the right */}
