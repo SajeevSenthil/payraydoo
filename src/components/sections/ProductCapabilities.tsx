@@ -1,7 +1,13 @@
 export function ProductCapabilities() {
   return (
-    <section className="bg-gradient-to-br from-purple-800 via-purple-900 to-blue-900 py-20 lg:py-28 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden py-20 lg:py-28 text-white">
+      {/* First Diagonal Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[rgb(79,61,134)] via-[rgb(128,76,195)] to-[rgb(166,112,241)]"></div>
+      
+      {/* Second Diagonal Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-tl from-[rgb(141,175,253)] via-[rgb(207,184,243)] to-transparent opacity-60"></div>
+      
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-20">
           <h2 className="text-4xl lg:text-5xl font-bold text-center">
@@ -19,21 +25,21 @@ export function ProductCapabilities() {
                 {/* 95% Accuracy Card */}
                 <div className="bg-black/40 backdrop-blur-sm rounded-xl p-4 border border-white/10">
                   <div className="text-3xl font-bold text-white mb-1">95%</div>
-                  <div className="text-gray-300 text-sm">Accuracy</div>
+                  <div className="text-gray-100 text-sm">Accuracy</div>
                 </div>
 
                 {/* 90% Time Savings Card */}
                 <div className="bg-black/40 backdrop-blur-sm rounded-xl p-4 border border-white/10">
                   <div className="text-3xl font-bold text-white mb-1">90%</div>
-                  <div className="text-gray-300 text-sm">Time Savings</div>
+                  <div className="text-gray-100 text-sm">Time Savings</div>
                 </div>
               </div>
 
               {/* Bottom Row - 60% Cost Savings Card (Full Width) */}
               <div className="bg-black/40 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-                <div className="text-gray-300 text-sm mb-1">Upto</div>
+                <div className="text-gray-100 text-sm mb-1">Upto</div>
                 <div className="text-4xl font-bold text-white mb-1">60%</div>
-                <div className="text-gray-300 text-sm">Cost Savings</div>
+                <div className="text-gray-100 text-sm">Cost Savings</div>
               </div>
             </div>
 
@@ -45,7 +51,7 @@ export function ProductCapabilities() {
                 </div>
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Smarter & Measurable Results</h3>
-                  <p className="text-gray-300 leading-relaxed text-xl">
+                  <p className="text-gray-100 leading-relaxed text-xl">
                     Experience 95% accuracy, 90% time saved, and up to 60% cost reduction — all powered by Payraydoo. Our intelligent automation turns everyday workflows into effortless wins. It&apos;s not just faster; it&apos;s smarter.
                   </p>
                 </div>
@@ -104,10 +110,10 @@ export function ProductCapabilities() {
                 </div>
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Seamless Integrations</h3>
-                  <p className="text-gray-300 leading-relaxed text-xl mb-4">
+                  <p className="text-gray-100 leading-relaxed text-xl mb-4">
                     Payraydoo connects with your everyday tools — Outlook, Gmail, Google Drive, Dropbox, OneDrive, and more — so you can automate tasks, sync files, and manage accounts without switching tabs.
                   </p>
-                  <p className="text-gray-300 leading-relaxed text-xl">
+                  <p className="text-gray-100 leading-relaxed text-xl">
                     Everything works together. Just like it should.
                   </p>
                 </div>
@@ -213,7 +219,7 @@ export function ProductCapabilities() {
                 </div>
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Complete control. 0 guesswork</h3>
-                  <p className="text-gray-300 leading-relaxed text-xl">
+                  <p className="text-gray-100 leading-relaxed text-xl">
                     Gain end-to-end visibility on AP invoice delays with AI-powered insights and customizable reports. Payraydoo helps you identify bottlenecks, accelerate approvals, and make smarter decisions—faster.
                   </p>
                 </div>
@@ -252,7 +258,7 @@ export function ProductCapabilities() {
                 </div>
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Fits into your ERP universe</h3>
-                  <p className="text-gray-300 leading-relaxed text-xl">
+                  <p className="text-gray-100 leading-relaxed text-xl">
                     Whether it&apos;s SAP, Oracle, Sage, or others—Payraydoo integrates effortlessly with your existing ERP systems. No disruptions. Just smoother workflows, unified data, and faster processing from day one.
                   </p>
                 </div>
@@ -337,7 +343,7 @@ export function ProductCapabilities() {
                 </div>
                 <div>
                   <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">Built for global teams. Backed by real support.</h3>
-                  <p className="text-gray-300 leading-relaxed text-xl">
+                  <p className="text-gray-100 leading-relaxed text-xl">
                     From UK to USA to India, Payraydoo supports diverse invoice formats across borders. And behind the tech? A dedicated support team that truly understands AP challenges—ready to help, every step of the way.
                   </p>
                 </div>
